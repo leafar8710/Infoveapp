@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'mi_card_flutter'" />
-    <option name="defaultScopeName" value="Project 'mi_card_flutter'" />
+    <option name="customScope" value="Project 'flutter_infoveapp'" />
+    <option name="defaultScopeName" value="Project 'flutter_infoveapp'" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Project 'mi_card_flutter'" />
+    <option name="SEARCH_SCOPE" value="Project 'flutter_infoveapp'" />
   </component>
 </application>
