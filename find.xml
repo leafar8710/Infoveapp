@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'flutter_infoveapp'" />
-    <option name="defaultScopeName" value="Project 'flutter_infoveapp'" />
+    <option name="customScope" value="Project 'Infoveapp'" />
+    <option name="defaultScopeName" value="Project 'Infoveapp'" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Project 'flutter_infoveapp'" />
+    <option name="SEARCH_SCOPE" value="Project 'Infoveapp'" />
   </component>
 </application>
