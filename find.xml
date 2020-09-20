@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Infoveapp'" />
-    <option name="defaultScopeName" value="Project 'Infoveapp'" />
+    <option name="customScope" value="Project 'infoveapp'" />
+    <option name="defaultScopeName" value="Project 'infoveapp'" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="Project 'Infoveapp'" />
+    <option name="SEARCH_SCOPE" value="Project 'infoveapp'" />
   </component>
 </application>
