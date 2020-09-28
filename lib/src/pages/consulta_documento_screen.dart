@@ -21,7 +21,7 @@ class _ConsultaDocumentoScreenState extends State<ConsultaDocumentoScreen> {
   String cedula;
   String valor_mp;
 
-  @override
+ @override
   void initState() {
     super.initState();
 
@@ -34,8 +34,6 @@ class _ConsultaDocumentoScreenState extends State<ConsultaDocumentoScreen> {
     contribuyente = decodeData[0]['contribuyente'];
     cedula = decodeData[0]['cedula'];
     valor_mp = decodeData[0]['valor_mp'];
-
-    print(placa);
   }
 
   @override
@@ -175,7 +173,7 @@ class _ConsultaDocumentoScreenState extends State<ConsultaDocumentoScreen> {
               ),
               SizedBox(height: 200.0),
               Container(
-                width: 180,
+                width: 280,
                 child: RaisedButton.icon(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30.0)),
@@ -185,12 +183,12 @@ class _ConsultaDocumentoScreenState extends State<ConsultaDocumentoScreen> {
                     color: Color(0xFF2172af),
                     textColor: Colors.white,
                     label: Text(
-                      'Cerrar sesión',
+                      'Realizar otra búsqueda',
                       style: TextStyle(fontSize: 14, color: Colors.white),
                     ),
-                    icon: Icon(Icons.settings_power),
+                    icon: Icon(Icons.search),
                     onPressed: () {
-                      Provider.of<LoginState>(context).logout();
+                     // Provider.of<LoginState>(context).logout();
                       Navigator.of(context).pop();
                     }),
               ),
