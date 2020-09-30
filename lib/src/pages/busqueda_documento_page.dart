@@ -21,14 +21,14 @@ class _DocumentoPageState extends State<DocumentoPage> {
   @override
   void initState() {
     super.initState();
-    getDataWeb();
+    //getDataWeb();
   }
 
-  void getDataWeb() async{
+  void getDataWeb(String documento) async{
 
    cedula = usuario.cedula;
 
-    NetworkHelper networkHelper = NetworkHelper('https://infoappve.azurewebsites.net/Servicios/GetDocumento?id=79488667');
+    NetworkHelper networkHelper = NetworkHelper('https://infoappve.azurewebsites.net/Servicios/GetDocumento?id=${documento}');
 
     var decodeData = await networkHelper.getData();
 
@@ -126,6 +126,6 @@ class _DocumentoPageState extends State<DocumentoPage> {
     formKey.currentState.save();
     print(usuario.cedula);
     print("requesting..");
-    getDataWeb();
+    getDataWeb(usuario.cedula);
   }
 }
